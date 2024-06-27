@@ -1,8 +1,11 @@
 #!/usr/bin/python3
+"""This is a module for Pascal's triangle"""
+
 
 def pascal_triangle(n):
     """Returns a list of lists of integers representing the pascals triangle
-    Args: int n
+    Args: n (int)
+    Returns: An empty list if n <= 0
     """
     if n <= 0:
         return []
